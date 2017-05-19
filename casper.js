@@ -24,7 +24,7 @@ casper.start('https://www.facebook.com', function() {
     console.log("page loaded");
     this.test.assertExists('form#login_form', 'form is found');
     this.fill('form#login_form', {
-        email : 'ouioui_81@hotmail.com',
+        email : 'xxxx@hotmail.com',
         pass : "xxxxx"
     }, true)
 });
@@ -36,7 +36,7 @@ casper.thenEvaluate(function(){
 
 // casper.then(function() {
 //     this.fill('selector', {
-//     'email' : 'ouioui_81@hotmail.com',
+//     'email' : 'xxxx@hotmail.com',
 //     'pass' : "xxxx"
 //     })
 // }, submit);

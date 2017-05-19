@@ -16,7 +16,7 @@ casper.start().thenOpen("https://facebook.com", function() {
 casper.then(function(){
     console.log("Login using username and password");
     this.evaluate(function(){
-        document.getElementById("email").value="ouioui_81@hotmail.com";
+        document.getElementById("email").value="xxxx@hotmail.com";
 		document.getElementById("pass").value="xxxxx";
 		document.getElementById("loginbutton").children[0].click();
     });

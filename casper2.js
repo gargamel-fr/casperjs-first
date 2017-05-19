@@ -51,7 +51,7 @@ casper.then(function () {
     console.log("fill login form...");
     this.waitForSelector('form#login_form');
     this.fill('form#login_form', {
-        email: 'ouioui_81@hotmail.com',
+        email: 'xxxx@hotmail.com',
         pass: 'xxxxxxx'
     }, true);
 });
